@@ -1,0 +1,139 @@
+body {
+  font-family: Montserrat;
+  background-image: URL(/images/sun-background4.jpg);
+  background: cover;
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 100px;
+  margin-left: 8px;
+}
+
+ul {
+  text-align: right;
+}
+
+.intro {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.greeting {
+  color: rgb(0, 118, 133);
+  font-weight: 500;
+  margin-left: 20px;
+  max-width: 400px;
+}
+
+.notes-border {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.notes {
+  margin-top: 30px;
+  max-width: 508px;
+
+}
+
+.wave-gif {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 200px;
+  border-width: 2px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+  transition: width .5s, height .5s;
+}
+
+.wave-gif:hover {
+  width: 220px;
+  height: 220px;
+}
+
+
+.container-home {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  align-items: end;
+  font-size: 15px;
+}
+.container-about {
+  display: flex;
+  flex-direction: row;
+  height: 233px;
+  align-items: end;
+  font-size: 15px;
+}
+.container-career {
+  display: flex;
+  flex-direction: row;
+  height: 118px;
+  align-items: end;
+  font-size: 15px;
+}
+
+.player {
+  width: 300px;
+  transition: width 1s, height 1s;
+}
+
+.player:hover {
+  width: 320px;
+  height: 100px;
+}
+
+.music-note {
+  margin-top: 0px;
+}
+
+.about-me {
+  color: rgb(0, 118, 133);
+  font-weight: 400px;
+  margin-left: 20px;
+
+}
+
+.about-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 5% 95%;
+  border-radius: 150px;
+  border-width: 2px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+  transition: width .5s, height .5s;
+}
+
+.about-photo:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.career-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 150px;
+  border-width: 2px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .3);
+  transition: width .5s, height .5s;
+}
+
+.career-photo:hover {
+  width: 200px;
+  height: 200px;
+}
